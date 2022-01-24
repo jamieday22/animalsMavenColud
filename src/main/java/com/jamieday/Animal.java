@@ -1,48 +1,34 @@
 package com.jamieday;
 
- import java.time.LocalDate;
+
 
 
     public abstract class Animal {
 
-        /////////////////////////////////////Attributes//////////////////////////////////////////////
+             ////////////////////////Attributes///////////////////////////////
 
         private String name;
-        private LocalDate dateOfBirth;
 
 
 
-
-        /////////////////////////////////////Constructors/////////////////////////////////////////////
+            ////////////////////////Constructors/////////////////////////////
 
         public Animal(String name){
             this.name = name;
         }
 
 
-
-
-
-
-        /////////////////////////////////////Methods//////////////////////////////////////////////////
+                /////////////////////////Methods/////////////////////////////////
 
         public abstract void eat(String food);
 
-        public void sleep(int length){
-            System.out.println("I will sleep for "+length +" minutes");
-        }
 
         public abstract void breathe();
 
         public void poop(){
-            System.out.println("I am pooping");
+            System.out.println("pooping time");
         }
 
-        public abstract Animal reproduce(Animal mother, Animal father) throws Exception;
-
-        public void die(){
-            System.out.println("I am dead!");
-        }
 
 
         public String getName() {
@@ -53,12 +39,6 @@ package com.jamieday;
             this.name = name;
         }
 
-        public LocalDate getDateOfBirth() {
-            return dateOfBirth;
-        }
 
-        public void setDateOfBirth(LocalDate dateOfBirth) {
-            this.dateOfBirth = dateOfBirth;
-        }
     }
 

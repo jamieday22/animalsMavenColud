@@ -6,8 +6,8 @@ public class Main {
 
         Cat cat = new Cat("Ragdoll", "Tabby");
         Cat cat2 = new Cat();
-        Cat cat3 = new Cat("Coon",6,"Female","Ginger","Bobby");
-        cat.setName("Tiddles");
+        Cat cat3 = new Cat("Coon",7,"Male","Blue","Keith");
+        cat.setName("Dave");
 
         cat.breathe();
         cat.eat("Felix");
@@ -19,6 +19,6 @@ public class Main {
         System.out.println(cat2.getColour());
         System.out.println(cat3.getBreed());
         System.out.println(cat3.getColour());
-        System.out.println(cat3.getName());
+        System.out.println(cat3.getName()+cat3.getWeight());
     }
 }

@@ -10,14 +10,14 @@ public class Cat extends Mammal{
     private String colour;
 
 
-    /////////////////////////////////////////Constuctors/////////////////////////////////////
+    /////////////////////////////////////////constructors/////////////////////////////////////
     public Cat(){
-        this("Black");
+        this("red");
     }
 
 
     public Cat(String colour){
-        this("DSH",colour);
+        this("Big",colour);
     }
 
     public Cat(String breed, String colour){
