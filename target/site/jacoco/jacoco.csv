@@ -2,5 +2,5 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 animalsMavenSonor,com.jamieday,Animal,7,10,0,0,3,4,2,3,2,3
 animalsMavenSonor,com.jamieday,Mammal,0,3,0,0,0,1,0,1,0,1
 animalsMavenSonor,com.jamieday,Dog,0,6,0,0,0,3,0,1,0,1
-animalsMavenSonor,com.jamieday,Main,24,0,0,0,7,0,2,0,2,0
+animalsMavenSonor,com.jamieday,Main,4,0,0,0,2,0,2,0,2,0
 animalsMavenSonor,com.jamieday,Cat,0,3,0,0,0,1,0,1,0,1
