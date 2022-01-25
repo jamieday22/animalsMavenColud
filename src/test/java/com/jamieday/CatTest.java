@@ -16,11 +16,11 @@ public class CatTest {
     }
 
     @Test
-    public void testHeight(){
+    public void testSetHeight(){
 
         Animal testAnimal = new Cat();
-        testAnimal.setWeight(20);
-        assertEquals(testAnimal.getWeight(), 20, "Wrong height for cat");
+        testAnimal.setHeight(20);
+        assertEquals(testAnimal.getHeight(), 20, "Wrong height for cat");
 
     }
 
