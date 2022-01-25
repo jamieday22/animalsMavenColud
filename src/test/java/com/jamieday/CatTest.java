@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CatTest {
 
     @Test
-    public void weightTest(){
+    public void testSetWeight(){
 
         Animal testAnimal = new Cat();
         testAnimal.setWeight(10000);
@@ -16,7 +16,7 @@ public class CatTest {
     }
 
     @Test
-    public void heightTest(){
+    public void testHeight(){
 
         Animal testAnimal = new Cat();
         testAnimal.setWeight(20);
