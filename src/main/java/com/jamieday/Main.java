@@ -4,6 +4,7 @@ public class Main {
 
         public static void main(String[] args){
 
+
             Cat Cat = new Cat();
             Cat.setWeight(22);
             Cat.setHeight(22);

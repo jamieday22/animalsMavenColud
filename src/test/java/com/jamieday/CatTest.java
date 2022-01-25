@@ -1,14 +1,13 @@
-import com.jamieday.Animal;
-import com.jamieday.Cat;
+package com.jamieday;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class testCatWeight {
-
+public class CatTest {
 
     @Test
-    void weightTest(){
+    public void weightTest(){
 
         Animal testAnimal = new Cat();
         testAnimal.setWeight(10000);
@@ -17,13 +16,15 @@ public class testCatWeight {
     }
 
     @Test
-    void heightTest(){
+    public void heightTest(){
 
         Animal testAnimal = new Cat();
         testAnimal.setWeight(20);
         assertEquals(testAnimal.getWeight(), 20, "Wrong height for cat");
 
     }
+
+
 
 
 }
