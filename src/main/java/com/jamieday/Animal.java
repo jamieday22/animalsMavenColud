@@ -7,10 +7,6 @@ public abstract class Animal {
     private int height;
 
 
-public Animal (){
-    setWeight(2);
-}
-
 
 
     public void setWeight(int newWeight){
