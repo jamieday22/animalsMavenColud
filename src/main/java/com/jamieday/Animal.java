@@ -4,7 +4,7 @@ public abstract class Animal {
 
 
     private int weight;
-
+    private int height;
 
 
     public void setWeight(int newWeight){
@@ -18,6 +18,20 @@ public abstract class Animal {
         return weight;
 
     }
+
+    public void setHeight(int newHeight){
+
+        height= newHeight;
+
+    }
+
+    public int getHeight(){
+
+        return height;
+
+    }
+
+
 
 
 }
